@@ -25,7 +25,7 @@ git clone https://github.com/LowieHuyghe/strava-upload-gpx-as-route.git
 
 Move into the new directory
 ```bash
-cd strava-upload-gpx
+cd strava-upload-gpx-as-route
 ```
 
 Install javascript dependencies
