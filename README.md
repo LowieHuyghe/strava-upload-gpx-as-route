@@ -1,8 +1,11 @@
 # Strava upload GPX as Route
 
-Tool to upload GPX-files as Strava Routes. Alternative for
+Tool to upload GPX-files as Strava Routes.
+
+Alternative for
 [https://labs.strava.com/gpx-to-route](https://labs.strava.com/gpx-to-route)
 as the tool does not work.
+
 > Note: Strava seems to have problems with creating long routes. See
 [https://support.strava.com/hc/en-us/community/posts/211820068-Route-Builder-Error](https://support.strava.com/hc/en-us/community/posts/211820068-Route-Builder-Error)
 
