@@ -1,0 +1,34 @@
+{
+  "name": "strava-upload-gpx",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "tslint -c tslint.json --exclude '**/*.d.ts' --exclude 'node_modules/**/*.ts' '**/*.ts'",
+    "lint:watch": "nodemon --ext ts --exec npm run lint",
+    "test": "NODE_ENV=testing mocha --opts mocha.opts '**/*.spec.ts'",
+    "test:cover": "NODE_ENV=testing nyc mocha --opts mocha.opts '**/*.spec.ts'",
+    "test:watch": "NODE_ENV=testing mocha --watch --opts mocha.opts '**/*.spec.ts'"
+  },
+  "dependencies": {
+    "commander": "^2.17.1",
+    "geolib": "^2.0.24",
+    "puppeteer": "^1.7.0",
+    "readline-sync": "^1.4.9",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.2",
+    "@types/puppeteer": "^1.6.0",
+    "@types/readline-sync": "^1.4.3",
+    "@types/tmp": "0.0.33",
+    "@types/xml2js": "^0.4.3",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "nyc": "^12.0.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^3.0.1"
+  }
+}
